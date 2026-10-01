@@ -54,3 +54,5 @@ while is_program_running:
         elif user_command_number == EXIT_COMMAND:
             is_program_running = False
             print('Выход из программы')
+    else:
+        print('Неизвестная команда. Попробуйте снова')
